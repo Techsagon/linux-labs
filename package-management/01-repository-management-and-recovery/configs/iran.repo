@@ -1,0 +1,86 @@
+# Official Rocky Linux Iran Mirror
+
+[iran-baseos]
+name=IUT Rocky Linux $releasever - BaseOS - Iran Mirror
+baseurl=https://repo.iut.ac.ir/repo/rocky-linux/$releasever/BaseOS/$basearch/os/
+gpgcheck=1
+enabled=0
+countme=1
+metadata_expire=6h
+gpgkey=https://repo.iut.ac.ir/repo/rocky-linux/RPM-GPG-KEY-Rocky-9
+
+[iran-appstream]
+name=IUT Rocky Linux $releasever - AppStream - Iran Mirror
+baseurl=https://repo.iut.ac.ir/repo/rocky-linux/$releasever/AppStream/$basearch/os/
+gpgcheck=1
+enabled=0
+countme=1
+metadata_expire=6h
+gpgkey=https://repo.iut.ac.ir/repo/rocky-linux/RPM-GPG-KEY-Rocky-9
+
+[iran-crb]
+name=IUT Rocky Linux $releasever - CRB - Iran Mirro
+baseurl=https://repo.iut.ac.ir/repo/rocky-linux/$releasever/CRB/$basearch/os/
+gpgcheck=1
+enabled=0
+countme=1
+metadata_expire=6h
+gpgkey=https://repo.iut.ac.ir/repo/rocky-linux/RPM-GPG-KEY-Rocky-9
+
+[iran-extras]
+name=IUT Rocky Linux $releasever - Extras - Iran Mirror
+baseurl=https://repo.iut.ac.ir/repo/rocky-linux/$releasever/extras/$basearch/os/
+gpgcheck=1
+enabled=0
+countme=1
+metadata_expire=6h
+gpgkey=https://repo.iut.ac.ir/repo/rocky-linux/RPM-GPG-KEY-Rocky-9
+
+# Epel Iran Mirror
+
+[iran-epel]
+name=IUT Extra Packages for Enterprise Linux $releasever - $basearch - Iran Mirror
+baseurl=https://repo.iut.ac.ir/repo/epel/$releasever/Everything/$basearch/
+enabled=0
+gpgcheck=1
+countme=1
+gpgkey=https://repo.iut.ac.ir/repo/epel/RPM-GPG-KEY-EPEL-9
+
+[iran-epel-debuginfo]
+name=IUT Extra Packages for Enterprise Linux $releasever - $basearch - Debug - Iran Mirror
+baseurl=https://repo.iut.ac.ir/repo/epel/$releasever/Everything/$basearch/debug/
+enabled=0
+gpgcheck=1
+gpgkey=https://repo.iut.ac.ir/repo/epel/RPM-GPG-KEY-EPEL-9
+
+
+[iran-epel-source]
+name=IUT Extra Packages for Enterprise Linux $releasever - $basearch - Source - Iran Mirror
+baseurl=https://repo.iut.ac.ir/repo/epel/$releasever/Everything/source/tree/
+enabled=0
+gpgcheck=1
+gpgkey=https://repo.iut.ac.ir/repo/epel/RPM-GPG-KEY-EPEL-9
+
+
+[iran-epel-testing]
+name=IUT Extra Packages for Enterprise Linux $releasever - Testing - $basearch - Iran Mirror
+baseurl=https://repo.iut.ac.ir/repo/epel/testing/$releasever/Everything/$basearch/
+enabled=0
+gpgcheck=1
+countme=1
+gpgkey=https://repo.iut.ac.ir/repo/epel/RPM-GPG-KEY-EPEL-9
+
+[iran-epel-testing-debuginfo]
+name=IUT Extra Packages for Enterprise Linux $releasever - Testing - $basearch - Debug - Iran Mirror
+baseurl=https://repo.iut.ac.ir/repo/epel/testing/$releasever/Everything/$basearch/debug/
+enabled=0
+gpgcheck=1
+gpgkey=https://repo.iut.ac.ir/repo/epel/RPM-GPG-KEY-EPEL-9
+
+
+[iran-epel-testing-source]
+name=IUT Extra Packages for Enterprise Linux $releasever - Testing - $basearch - Source - Iran Mirror
+baseurl=https://repo.iut.ac.ir/repo/epel/testing/$releasever/Everything/source/tree/
+enabled=0
+gpgcheck=1
+gpgkey=https://repo.iut.ac.ir/repo/epel/RPM-GPG-KEY-EPEL-9
